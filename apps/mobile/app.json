@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ghost",
+    "slug": "ghost-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "ghost",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0D0D"
+      },
+      "package": "com.ghost.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.ghost.app",
+      "supportsTablet": false
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
