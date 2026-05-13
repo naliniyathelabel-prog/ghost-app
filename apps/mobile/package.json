@@ -1,0 +1,30 @@
+{
+  "name": "@ghost/mobile",
+  "version": "0.1.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~55.0.0",
+    "expo-router": "~7.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "19.2.0",
+    "react-native": "0.83.0",
+    "react-native-safe-area-context": "4.14.0",
+    "react-native-screens": "~4.5.0",
+    "@react-native-async-storage/async-storage": "2.1.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~19.2.0",
+    "@types/react-native": "~0.73.0",
+    "typescript": "~5.8.0",
+    "eslint": "^9.0.0"
+  }
+}
